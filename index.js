@@ -1,7 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { ChartJSNodeCanvas } = require('chartjs-node-canvas');
-const ChartDataLabels = require('chartjs-plugin-datalabels');
 
 // Configuração básica do servidor
 const app = express();
